@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="end" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/index-C8Oav8R7.css">
+    <title>Hroj</title>
+</head>
+
+<body>
+    <div class="w-full m-auto">
+        <!-- Header Website the Fixed in the up Site -->
+        <header
+            class="top-0 left-0 w-full bg-[url(assets/banner/page-bg-CjV8mcIs.jpg)] py-5 min-[700px]:px-25 pb-10 max-[700px]:px-15 max-[450px]:px-5 z-20">
+
+            <!-- Sidebar Website Be Element -->
+            <div
+                class="fixed top-0 left-0 flex-col bg-white min-[500px]:w-90 max-[500px]:w-full hidden h-[100vh] z-20 sidebar p-3 px-6">
+                <div class="flex justify-between items-center">
+                    <a onclick="hidesidebar()" class="flex items-center text-6xl text-text-website" href="#"><ion-icon
+                            name="close-circle"></ion-icon></a>
+                    <div class="p-2">
+                        <img class="w-[250px] h-full object-cover" src="assets/Logo/logo-1-DoM8mRsK.png" alt="">
+                    </div>
+                </div>
+                <div class="relative mt-4">
+                    <span class="absolute left-2 top-2 text-borderhedaer text-2xl"><ion-icon
+                            name="search-outline"></ion-icon></span>
+                    <input
+                        class="text-borderhedaer w-full py-2 px-4 border-1 border-bordercard bg-sliderbehind rounded-xl"
+                        type="search" placeholder="جستجو کنید...">
+                </div>
+                <div class="w-full mt-10">
+                    <ul class="menu">
+                        <li
+                            class="py-2 border-b-1 border-bordercard hover:bg-sliderbehind duration-200 ease-in-out hover:cursor-pointer">
+                            <a href="#">صفحه اصلی</a>
+                        </li>
+                        <li
+                            class="py-2 border-b-1 border-bordercard hover:bg-sliderbehind duration-200 ease-in-out hover:cursor-pointer">
+                            <a href="#">صفحات</a>
+                            <ul class="">
+                                <div
+                                    class="w-[87%] h-max text-sm shadow-sm rounded-xl py-2 bg-white text-black backdrop-blur-2xl absolute z-20 hidden menu-li-i">
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">وبلاگ</a>
+                                    </li>
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">دوره ها</a>
+                                    </li>
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">محصول</a>
+                                    </li>
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">جزئیات مقاله</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li
+                            class="py-2 border-b-1 border-bordercard hover:bg-sliderbehind duration-200 ease-in-out hover:cursor-pointer">
+                            <a href="#">دوره ها</a>
+                            <ul class="">
+                                <div
+                                    class="w-[87%] h-max text-sm shadow-sm rounded-xl py-2 bg-white text-black backdrop-blur-2xl absolute z-20 hidden menu-li-i">
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">سبد خرید</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Navigetion -->
+            <div class="flex justify-between items-center w-full">
+                <div class="flex justify-center items-center min-[1100px]:hidden max-[1100px]:flex">
+                    <a class="flex justify-center items-center text-white p-2 bg-text-website rounded-md text-sm pr-5"
+                        href="#">ورود / ثبت نام</a>
+                </div>
+                <div class="flex justify-center items-center gap-x-5 text-white text-sm max-[1100px]:hidden">
+                    <div class="flex gap-x-1.5">
+                        <div class="flex justify-center items-center">
+                            <a class="flex justify-center items-center text-text-website text-3xl" href="#"><ion-icon
+                                    name="call"></ion-icon></a>
+                        </div>
+                        <div class="leading-5">
+                            <h2>تماس پشتیبانی</h2>
+                            <p>09901394741</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-x-1.5">
+                        <div class="flex justify-center items-center">
+                            <a class="flex justify-center items-center text-text-website text-3xl" href="#"><ion-icon
+                                    name="mail"></ion-icon></a>
+                        </div>
+                        <div class="leading-5">
+                            <h2>پشتیبانی ایمیل</h2>
+                            <p>mohammad0srayan@gmail.com</p>
+                        </div>
+                    </div>
+                    <a href="#"></a>
+                </div>
+                <div class="flex gap-x-4 text-white text-sm">
+                    <a class="duration-200 ease-in-out hover:text-textp hover:border-b-1 border-text-website"
+                        href="#">فروشگاه</a>
+                    <a class="duration-200 ease-in-out hover:text-textp hover:border-b-1 border-text-website"
+                        href="#">بلاگ</a>
+                </div>
+            </div>
+            <nav
+                class="bg-white w-full flex justify-between items-center min-[1100px]:py-1 max-[1100px]:py-3  max-[1100px]:px-4 pl-3 mt-2 rounded-sm max-[1200px]:text-sm">
+                <div class="flex gap-x-12 justify-center items-center">
+                    <div class="items-center hidden max-[800px]:flex">
+                        <a onclick="showsidebar()" class="items-center flex text-black text-2xl" href="#"><ion-icon
+                                name="menu-outline"></ion-icon></a>
+                    </div>
+                    <div class="p-2 max-[1100px]:hidden">
+                        <img class="w-[250px] h-full object-cover" src="assets/Logo/logo-1-DoM8mRsK.png" alt="">
+                    </div>
+                    <ul class="max-[500px]:hidden menu">
+                        <li><a class="hover:text-text-website duration-200 ease-in-out" href="#">دسته بندی ها</a>
+                            <ul class="">
+                                <div
+                                    class="min-[877px]:w-[18%] max-[877px]:w-[35%] h-max text-sm shadow-sm rounded-xl py-2  bg-white text-black backdrop-blur-2xl absolute z-20 hidden menu-li-i">
+                                    <div
+                                        class="flex justify-between items-center p-3 px-6 duration-200 hover:bg-text-website navegation">
+                                        <li
+                                            class="hover:bg-text hover:text-white duration-300 ease-in-out cursor-pointer">
+                                            <a class="" href="#">چند رسانه ای</a>
+                                        </li>
+                                        <div class="flex items-center">
+                                            <a class="flex items-center text-xl" href="#"><ion-icon
+                                                    name="arrow-forward-outline"></ion-icon></a>
+                                        </div>
+                                    </div>
+                                    <li
+                                        class="p-3 px-6 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">زبان خارجی</a>
+                                    </li>
+                                    <li
+                                        class="p-3 px-6 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">سبک زندگی</a>
+                                    </li>
+                                    <li
+                                        class="p-3 px-6 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">طراحی</a>
+                                    </li>
+                                    <div
+                                        class="flex justify-between items-center p-3 px-6 duration-200 hover:bg-text-website navegation">
+                                        <li
+                                            class="hover:bg-text hover:text-white duration-300 ease-in-out cursor-pointer">
+                                            <a class="" href="#">فناوری اطلاعات</a>
+                                        </li>
+                                        <div class="flex items-center">
+                                            <a class="flex items-center text-xl" href="#"><ion-icon
+                                                    name="arrow-forward-outline"></ion-icon></a>
+                                        </div>
+                                    </div>
+                                    <li
+                                        class="p-3 px-6 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">کسب و کار</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-row-reverse justify-center items-center gap-x-4">
+                    <div class="flex justify-center items-center max-[1100px]:hidden">
+                        <a class="flex justify-center items-center text-white p-2 bg-text-website rounded-md text-sm pr-5"
+                            href="#">ورود / ثبت نام</a>
+                    </div>
+                    <div class="flex items-center gap-x-4 text-2xl">
+                        <a class="flex items-center duration-300 ease-in-out hover:text-text-website" href="#"><ion-icon
+                                name="bag"></ion-icon></a>
+                        <a class="flex items-center max-[1100px]:hidden duration-300 ease-in-out hover:text-text-website"
+                            href="#"><ion-icon name="search"></ion-icon></a>
+                    </div>
+
+                    <ul class="flex max-[1100px]:hidden menu">
+                        <li><a class="mx-1.5 flex items-center" href="#">صفحه اصلی
+                            </a></li>
+                        <li><a class="mx-1.5 flex items-center" href="#">صفحات<ion-icon class="flex items-center mx-1"
+                                    name="arrow-down-outline"></ion-icon></a>
+                            <ul class="">
+                                <div
+                                    class="w-[15%] h-max text-sm shadow-sm rounded-xl py-2 bg-white text-black backdrop-blur-2xl absolute z-20 hidden menu-li-i">
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">وبلاگ</a>
+                                    </li>
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">دوره ها</a>
+                                    </li>
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">محصول</a>
+                                    </li>
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">جزئیات مقاله</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li><a class="mx-1.5 flex items-center" href="#">دوره ها<ion-icon class="flex items-center mx-1"
+                                    name="arrow-down-outline"></ion-icon></a>
+                            <ul class="">
+                                <div
+                                    class="w-[15%] h-max text-sm shadow-sm rounded-xl py-2 bg-white text-black backdrop-blur-2xl absolute z-20 hidden menu-li-i">
+                                    <li
+                                        class="p-3 hover:bg-text hover:text-white hover:bg-text-website duration-300 ease-in-out cursor-pointer">
+                                        <a class="" href="#">سبد خرید</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- Main Website Cart Page -->
+        <section class="min-[700px]:px-25 max-[700px]:px-15 max-[450px]:px-5 bg-sliderbehind py-2">
+            <div class="flex justify-between items-start w-full h-max p-4 gap-5 max-[1100px]:flex-col">
+                <div class="w-full flex-col flex gap-5">
+                    <div class="w-full bg-white p-4 rounded-md max-[500px]:p-0">
+                        <img class="w-full" src="assets/Photo/602-540x350-B14cPOai.jpg" alt="">
+                        <div class="text-justify p-4 max-[900px]:p-2">
+                            <p class="break-words text-borderhedaer leading-7">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                                است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط
+                                فعلی
+                                تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
+                                زیادی
+                                در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                                افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در
+                                زبان
+                                فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها،
+                                و
+                                شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی
+                                سوالات
+                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. لورم ایپسوم متن ساختگی با
+                                تولید
+                                سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                                روزنامه و
+                                مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                                آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+                                طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+                                صورت
+                                می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                رسد و
+                                زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود
+                                طراحی
+                                اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                                و با
+                                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                لازم
+                                است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای
+                                کاربردی
+                                می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان
+                                را
+                                می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                خلاقی، و
+                                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                                موجود در
+                                ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
+                                اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. لورم
+                                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                                تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
+                                زیادی
+                                در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم
+                                افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در
+                                زبان
+                                فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها،
+                                و
+                                شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی
+                                سوالات
+                                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با
+                                تولید
+                                سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه
+                                روزنامه و
+                                مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+                                متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+                                آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+                                طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+                                صورت
+                                می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+                                رسد و
+                                زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود
+                                طراحی
+                                اساسا مورد استفاده قرار گیرد.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full p-4 bg-white h-max">
+                        <div class="flex items-start gap-10 max-[900px]:flex-col-reverse">
+                            <div class="flex flex-col">
+                                <h2>مهدی ایلخانی نسب</h2>
+                                <p class="break-words text-justify mt-5 text-borderhedaer">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                    گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و
+                                    برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                                    می باشد.
+                                </p>
+                                <div class="mt-5">
+                                    <a class="text-hover-bg" href="#">نمایش همه نوشته های مدیر</a>
+                                </div>
+                            </div>
+                            <div class="w-full">
+                                <img class="w-full object-cover" src="assets/Photo/700-700-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <div class="text-borderhedaer">
+                            <h2 class="font-semibold">ارسال دیدگاه</h2>
+                            <P class="mt-2">آدرس ایمیل شما منتشر نخواهد شد.</P>
+                        </div>
+                        <form>
+                            <div class="w-full mt-6">
+                                <div class="flex items-start gap-10">
+                                    <textarea class="w-full bg-white h-50 p-2" name="" id="" placeholder="دیدگاه شما"></textarea>
+                                </div>
+                                <div class="flex w-full justify-between items-center mt-5 gap-5">
+                                    <input class="px-2 py-2.5 w-full bg-white" type="text" placeholder="نام">
+                                    <input class="px-2 py-2.5 w-full bg-white" type="text" placeholder="ایمیل">
+                                </div>
+                                <div class="flex gap-3 mt-5">
+                                    <input class="text-black" type="checkbox">
+                                    <span class="text-borderhedaer">ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.</span>
+                                </div>
+                                <div class="w-full mt-5">
+                                    <input class="w-full bg-text-website py-3 text-white" type="submit" value="ارسال دیدگاه">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="w-[40%] p-2 flex flex-col gap-5 max-[1100px]:w-full">
+                    <div class="p-2 relative text-borderhedaer bg-white rounded-md">
+                        <form>
+                            <span class="absolute left-4 top-5 text-xl"><ion-icon
+                                    name="search-outline"></ion-icon></span>
+                            <input class="py-2 px-5 w-full border-1 border-bordercard" type="search" name="" id=""
+                                placeholder="جستجو...">
+                        </form>
+                    </div>
+                    <div class="py-2 text-borderhedaer bg-white rounded-md">
+                        <div class="border-b-1 border-bordercard relative">
+                            <h2 class="px-4 text-sm py-3 text-black font-semibold">دسته بندی مطالب</h2>
+                            <div class="flex">
+                                <div class="w-4 h-1 bg-text-website rounded-2xl absolute right-0 bottom-0"></div>
+                                <div class="w-15 h-1 bg-cart rounded-2xl absolute right-5 bottom-0"></div>
+                            </div>
+                        </div>
+                        <ul class="px-4">
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">دسته‌بندی نشده</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">سئو</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">وردپرس</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">کسب کار</a></li>
+                            <li class="py-2"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">معرفی ابزار</a></li>
+                        </ul>
+                    </div>
+                    <div class="py-2 text-borderhedaer bg-white rounded-md">
+                        <div class="border-b-1 border-bordercard relative">
+                            <h2 class="px-4 text-sm py-3 text-black font-semibold">دسته بندی مطالب</h2>
+                            <div class="flex">
+                                <div class="w-4 h-1 bg-text-website rounded-2xl absolute right-0 bottom-0"></div>
+                                <div class="w-15 h-1 bg-cart rounded-2xl absolute right-5 bottom-0"></div>
+                            </div>
+                        </div>
+                        <ul class="px-4">
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">دسته‌بندی نشده</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">برنامه نویسی</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">فیلم و صدا</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">کسب کار</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">شبکه و امنیت</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">دسته‌بندی نشده</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">برنامه نویسی</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">فیلم و صدا</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">کسب کار</a></li>
+                            <li class="py-2 border-b-1 border-bordercard"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">شبکه و امنیت</a></li>
+                            <li class="py-2"><a
+                                    class="text-sm text-borderhedaer hover:text-text-website duration-200 ease-in-out"
+                                    href="#">معرفی ابزار</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer
+            class="bg-footer min-[1200px]:px-25 max-[1200px]:px-15 max-[500px]:px-5 py-10 text-white relative max-[110px]:text-[0.8rem]">
+            <div class="flex justify-between items-start w-full gap-10 max-[1050px]:flex-wrap">
+                <div class="min-[800px]:w-[40%] max-[800px]:w-[50%] max-[702px]:w-full">
+                    <div class="flex items-center">
+                        <h2 class="font-semibold">معرفی گروه طراحی و توسعه</h2>
+                    </div>
+                    <p class="mt-5 break-words text-textp">
+                        گروه وردپرس من از سال 1393 فعالیت خود را در زمینه طراحی و توسعه نرم افزارهای تحت وب با توجه به
+                        استانداردها و
+                        متدولوژی های روز دنیا و مد نظر قرار دادن ارزش ها و باورهای حرفه ای و نیز مطالعات کیفی و کمی در
+                        زمینه سیستم های
+                        یکپارچه.
+                    </p>
+                    <div class="mt-25">
+                        <div class="flex items-center mt-2 gap-x-3">
+                            <a class="flex justify-center items-center p-2 rounded-xl bg-iconftr text-white text-2xl"
+                                href="#"><ion-icon name="location"></ion-icon></a>
+                            <h2>تهران،یوسف آباد، خیابان چهلم ، پلاک 10</h2>
+                        </div>
+                        <div class="flex items-center my-3 gap-x-3">
+                            <a class="flex justify-center items-center p-2 rounded-xl bg-iconftr text-white text-2xl"
+                                href="#"><ion-icon name="phone-portrait"></ion-icon></a>
+                            <h2>09901394741</h2>
+                        </div>
+                        <div class="flex items-center my-3 gap-x-3">
+                            <a class="flex justify-center items-center p-2 rounded-xl bg-iconftr text-white text-2xl"
+                                href="#"><ion-icon name="mail"></ion-icon></a>
+                            <h2>mehdiikhaninasab7@gmail.com</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="">
+                        <h2 class="font-semibold">فهرست سفارشی</h2>
+                    </div>
+                    <div class="flex items-start gap-x-15 mt-5">
+                        <ul class="text-textp">
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">بلاگ</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">لیست
+                                    سفارشی</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">حساب
+                                    کاربری من</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">منوی
+                                    دلخواه</a>
+                            </li>
+                        </ul>
+                        <ul class="text-textp">
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">سبد
+                                    خرید</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">لورم
+                                    اپیسوم</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">فروشگاه</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">منوی
+                                    دلخواه</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <div>
+                        <h2 class="font-semibold">منوی خدمات</h2>
+                    </div>
+                    <div class="flex items-start gap-x-15 mt-5">
+                        <ul class="text-textp">
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">بلاگ</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">لیست
+                                    سفارشی</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">حساب
+                                    کاربری من</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">منوی
+                                    دلخواه</a>
+                            </li>
+                        </ul>
+                        <ul class="text-textp">
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">سبد
+                                    خرید</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">لورم
+                                    اپیسوم</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">فروشگاه</a>
+                            </li>
+                            <li class="py-3 list-disc hover:text-text-website hover:scale-110 duration-500 ease-in-out">
+                                <a href="#">منوی
+                                    دلخواه</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between items-center w-full mt-15 flex-wrap">
+                <div class="flex items-center text-xl gap-x-1">
+                    <a class="flex items-center" href="#"><ion-icon name="logo-deviantart"></ion-icon></a>
+                    <a class="flex items-center" href="#"><ion-icon name="logo-figma"></ion-icon></a>
+                    <a class="flex items-center" href="#"><ion-icon name="logo-vk"></ion-icon></a>
+                    <a class="flex items-center" href="#"><ion-icon name="logo-vue"></ion-icon></a>
+                    <a class="flex items-center" href="#"><ion-icon name="logo-nodejs"></ion-icon></a>
+                    <a class="flex items-center" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                </div>
+                <div class="flex justify-center items-center">
+                    <a class="flex justify-center items-center h-12 w-12 text-white border-1 rounded-full text-2xl border-textp hover:bg-text-website duration-200 ease-in-out"
+                        href="#"><ion-icon name="chevron-up"></ion-icon></a>
+                </div>
+                <div class="">
+                    <h2>این وبسایت صرفا جهت نمونه کار است.</h2>
+                </div>
+            </div>
+        </footer>
+        <script src="src/main.js"></script>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>

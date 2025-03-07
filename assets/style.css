@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'iranyekan';
+    src: url(IRANYekanX-Medium-sNcE5o7O.woff2);
+}
+
+:root {
+    font-family: iranyekan;
+}
+
+@theme {
+    --color-text-website: #FFC107;
+    --color-borderhedaer: #00000072;
+    --color-bordercard: #00000022;
+    --color-textp: #ffffffc4;
+    --color-silder: #070A24;
+    --color-footer: #292A30;
+    --color-iconftr: #434449;
+    --color-sliderbehind: #F4F7FB;
+    --color-hover-bg: #ffc107b9;
+    --color-cart: #333333;
+    --color-cartpayment: #ECECEC;
+}
+
+.menu li:hover .menu-li-i {
+    display: block;
+}
+
+.custom-grid {
+    @apply grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+    gap: 4rem 3rem;
+}
+
+
+.custom-grid-product {
+    @apply grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit , minmax(250px , 1fr));
+    gap: 1rem 3rem;
+}
+
+@media screen and (max-width:400px) {
+    .custom-grid {
+        @apply grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 2rem 0rem;
+    }    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: iranyekan;
+}
+
+/* li {
+    @apply list-none
+} */
+
+a {
+    @apply no-underline
+}
+
+.card {
+    box-shadow: 0 0 25px #00000033;
+}
+
+.navegation:hover a {
+    color: #fff;
+}
